@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Editor</title>
+    <script src="/js/libs/Jq.js"></script>
+    <script src="/js/editor/Main.js"></script>
+    <script src="/js/editor/Editor.js"></script>
+    <script src="/js/editor/Hex.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="data"></div>
+    <h1>Level Editor</h1>
+
+    <select id="select">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+
+    <button id="send">Wyślij</button>
+    <button id="get">Edytuj</button>
+
+    <a href="/hex">Hex</a>
+    <a href="/game">Mapa</a>
+    <a href="/player">Player</a>
+
+    <div>
+        <button class='type' id="wall">Wall</button>
+        <button class='type' id="treasure">Treasure</button>
+        <button class='type' id="light">Light</button>
+        <button class='type' id="enemy">Enemy</button>
+    </div>
+    <br>
+
+    <div id="hexes"></div>
+</body>
+</html>

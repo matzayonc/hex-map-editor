@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+}
+
+#hexes {
+    margin: 10px;
+    float: left;
+}
+
+.hex {
+    position: absolute;
+    width: 116px;
+    height: 100px;
+    background-image: url("/gfx/Hexagon.png");
+    background-size: cover;
+    background-position-y: -8px;
+}
+
+.arrow {
+    position: absolute;
+    width: 116px;
+    height: 100px;
+    background-image: url("/gfx/Arrow.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.marked {
+    color: tomato;
+}
+
+#data{
+    background-color: lightgray;
+    height: 100vh;
+    width: 15em;
+    overflow-x: wrap;
+    overflow-y: scroll;
+    float: left;
+    margin-right: 5px;
+
+}
